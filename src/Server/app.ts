@@ -14,5 +14,5 @@ app.use('/api/v1/posts', router)
 
 //db connection then server connection
 db.then(() => {
-    app.listen(7070, () => console.log('Server is listening on port 7070'))
+    app.listen(8080, () => console.log('Server is listening on port 8080'))
 })
